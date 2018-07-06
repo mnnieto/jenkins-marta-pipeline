@@ -35,11 +35,10 @@ def call(body) {
     /** **/
     stage('Initialize') {
         echo "\u2776 Initialize"
-        
         echo "Pipeline Init" 
     }
     stage('Checking-QA') {
         echo "\u2776 Initialize"
-        
         echo "Pipeline checking" 
+    }
 }
