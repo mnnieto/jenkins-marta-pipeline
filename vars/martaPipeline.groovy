@@ -36,11 +36,10 @@ def call(body) {
     stage('Initialize') {
         echo "\u2776 Initialize"
         
-        echo "Pipeline " + pipelineTest.jdkVersion
+        echo "Pipeline Init" 
     }
     stage('Checking-QA') {
         echo "\u2776 Initialize"
         
-        echo "Pipeline " + pipelineTest.jdkVersion
-    }
+        echo "Pipeline checking" 
 }
