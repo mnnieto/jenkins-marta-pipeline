@@ -24,5 +24,5 @@ def call() {
         echo "Pipeline checking" 
     }
     
-    return config;
+   
 }
