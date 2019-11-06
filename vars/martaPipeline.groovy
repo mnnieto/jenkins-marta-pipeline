@@ -15,11 +15,11 @@ def call() {
 
 
     /** **/
-    stage('Initialize') {
+    stage('Build') {
         echo "\u2776 Initialize"
         echo "Pipeline Init" 
     }
-    stage('Checking-QA') {
+    stage('Test) {
         echo "\u2776 Initialize"
         echo "Pipeline checking" 
     }
