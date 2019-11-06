@@ -19,7 +19,7 @@ def call() {
         echo "\u2776 Initialize"
         echo "Pipeline Build PROJECT" 
     }
-    stage('Test) {
+    stage('Test') {
         echo "\u2776 Initialize"
         echo "Pipeline Test PROJECT" 
     }
