@@ -27,7 +27,6 @@ def call(body) {
 
     /** evaluate the body block, and collect configuration into the object **/
     def config = [:]
-    def pipelineTest = null;
     body.resolveStrategy = Closure.DELEGATE_FIRST
     body.delegate = config
     body()
@@ -41,4 +40,6 @@ def call(body) {
         echo "\u2776 Initialize"
         echo "Pipeline checking" 
     }
+    
+    return config;
 }
